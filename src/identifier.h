@@ -1,4 +1,6 @@
 #pragma once
+#include <cstdio>
+#include <stdint.h>
 
 class Identifier {
     public:
