@@ -1,8 +1,12 @@
 #pragma once
+
 #include <cstdio>
 #include <stdint.h>
 
 class Identifier {
+    private:
+        uint8_t* uid_bytes;
     public:
-        int get_value();
+        Identifier();
+        uint8_t * bytes();
 };
