@@ -1,12 +1,6 @@
 #pragma once
 
-#include <cstdio>
-#include <stdint.h>
+#include <array>
+#include <cstring>
 
-class Identifier {
-    private:
-        uint8_t* uid_bytes;
-    public:
-        Identifier();
-        uint8_t * bytes();
-};
+std::array<uint8_t, 12> get_uid_bytes();
